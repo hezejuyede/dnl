@@ -4,7 +4,7 @@ import Router from 'vue-router'
 
 import Index from '../components/index'
 import userLogin from '../components/login/userLogin'
-import YC from '../components/yc'
+import YX from '../components/yx'
 
 Vue.use(Router)
 
@@ -21,9 +21,9 @@ export default new Router({
       component: userLogin
     },
     {
-      path: '/YC',
-      name: 'YC',
-      component: YC
+      path: '/YX',
+      name: 'YX',
+      component: YX
     }
   ]
 })

@@ -107,7 +107,7 @@
       loadingShowData(data) {
         let that = this;
         axios.all([
-          axios.post(" " + url + "/api/showTableTitle", {"name": "yx"}),
+          axios.post(" " + url + "/api/showTableTitle", {"name": "yc"}),
           axios.post(" " + url + "/api/showContextList", {"id": this.select})
         ])
           .then(axios.spread(function (title, table) {

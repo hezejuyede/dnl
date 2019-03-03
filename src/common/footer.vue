@@ -14,7 +14,7 @@
       num: Number,
       navBar: [
         {"icon": "iconfont icon-ceshi", "text": "遥测", "url": "/"},
-        {"icon": "iconfont icon-yaotiao", "text": "遥信", "url": "/YC"}
+        {"icon": "iconfont icon-yaotiao", "text": "遥信", "url": "/YX"}
       ]
     }
   },
